@@ -82,4 +82,4 @@ production:
   <<: *default
   database: holymusic_web_production
   username: holymusic_web
-  password: <%= ENV['HOLYMUSIC_WEB_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
